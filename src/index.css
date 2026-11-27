@@ -34,6 +34,30 @@
   font-variant-numeric: tabular-nums;
 }
 
+.client-bottom-nav {
+  padding-bottom: max(0.5rem, var(--tg-safe-bottom));
+}
+
+.client-workspace--telegram {
+  --client-nav-bottom: calc(4.5rem + max(var(--tg-safe-bottom), env(safe-area-inset-bottom, 0px)));
+  padding-bottom: calc(6rem + var(--client-nav-bottom));
+}
+
+.client-workspace--telegram .client-bottom-nav {
+  bottom: var(--client-nav-bottom);
+  padding-bottom: 0.5rem;
+}
+
+.client-workspace--telegram .client-bottom-nav button {
+  min-width: 0;
+  min-height: 44px;
+}
+
+.client-workspace--telegram .client-bottom-nav-label {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
 /* Clean architectural CAD grid background */
 .blueprint-surface {
   background-image:
