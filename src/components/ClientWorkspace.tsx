@@ -649,7 +649,7 @@ export const ClientWorkspace: React.FC<ClientWorkspaceProps> = ({
   };
 
   return (
-    <div className="flex-1 flex flex-col px-3.5 pt-3 pb-24">
+    <div className={`flex-1 flex flex-col px-3.5 pt-3 pb-24 ${telegramUser?.isTelegramEnv ? 'client-workspace--telegram' : ''}`}>
       <input
         ref={fileInputRef}
         type="file"
@@ -1086,8 +1086,7 @@ export const ClientWorkspace: React.FC<ClientWorkspaceProps> = ({
       {/* Fixed Bottom 4-Tab Navigation Bar */}
       <nav
         aria-label="Asosiy bo'limlar"
-        className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-40 bg-white border-t border-[#C5A059]/40 grid grid-cols-4 py-2 shadow-[0_-4px_16px_rgba(14,58,47,0.06)]"
-        style={{ paddingBottom: 'max(0.5rem, var(--tg-safe-bottom, 0px))' }}
+        className="client-bottom-nav fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-40 bg-white border-t border-[#C5A059]/40 grid grid-cols-4 py-2 shadow-[0_-4px_16px_rgba(14,58,47,0.06)]"
       >
         {(
           [
@@ -1117,7 +1116,7 @@ export const ClientWorkspace: React.FC<ClientWorkspaceProps> = ({
                 }`}
               />
               <span
-                className={`text-[10px] leading-tight truncate max-w-full ${
+                className={`client-bottom-nav-label text-[10px] leading-tight truncate max-w-full ${
                   isActive ? 'font-bold text-[#0E3A2F]' : 'font-medium text-[#6B7A74]'
                 }`}
               >

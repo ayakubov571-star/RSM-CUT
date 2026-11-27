@@ -149,6 +149,10 @@ export function applyTelegramThemeAndViewport(): () => void {
   try {
     tg?.onEvent?.('themeChanged', sync);
     tg?.onEvent?.('viewportChanged', sync);
+    if (inTelegram) {
+      tg?.onEvent?.('safeAreaChanged', sync);
+      tg?.onEvent?.('contentSafeAreaChanged', sync);
+    }
   } catch {
     // ignore
   }
@@ -157,6 +161,10 @@ export function applyTelegramThemeAndViewport(): () => void {
     try {
       tg?.offEvent?.('themeChanged', sync);
       tg?.offEvent?.('viewportChanged', sync);
+      if (inTelegram) {
+        tg?.offEvent?.('safeAreaChanged', sync);
+        tg?.offEvent?.('contentSafeAreaChanged', sync);
+      }
     } catch {
       // ignore
     }
