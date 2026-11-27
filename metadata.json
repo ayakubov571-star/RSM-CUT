@@ -1,0 +1,6 @@
+{
+  "name": "MebelUsta AI",
+  "description": "O'zbekiston mebel ustalari va mijozlari uchun AI xona skaneri, mebel dizayni, aniq narx kalkulyatori va sex buyurtma tizimi.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

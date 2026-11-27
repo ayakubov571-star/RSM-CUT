@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    --rsm-emerald: #0E3A2F;
+    --rsm-gold: #C5A059;
+    --tg-theme-bg-color: #FAF8F5;
+    --tg-theme-secondary-bg-color: #FFFFFF;
+    --tg-theme-text-color: #1A2421;
+    --tg-theme-hint-color: #6B7A74;
+    --tg-theme-button-color: #0E3A2F;
+    --tg-theme-button-text-color: #FFFFFF;
+    --tg-viewport-stable-height: 100dvh;
+    --tg-safe-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  html, body {
+    font-family: var(--font-sans);
+    background: #F4EFE6;
+    color: #1A2421;
+    overscroll-behavior-y: contain;
+  }
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Clean architectural CAD grid background */
+.blueprint-surface {
+  background-image:
+    linear-gradient(to right, rgba(14, 58, 47, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(14, 58, 47, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Hide scrollbars cleanly for horizontal mobile category/style scrollers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom subtle warm ivory & gold scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 160, 89, 0.45);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 0.75);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

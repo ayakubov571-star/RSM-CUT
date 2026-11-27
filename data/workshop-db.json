@@ -1,0 +1,359 @@
+{
+  "pricing": {
+    "ldspPerSqm": 185000,
+    "mdfPerSqm": 310000,
+    "acrylicPerSqm": 420000,
+    "paintedMdfPerSqm": 560000,
+    "countertopPerM": 850000,
+    "edgeBandingPerM": 8500,
+    "hardwareBase": 1100000,
+    "hardwarePremium": 2850000,
+    "laborPercent": 35
+  },
+  "nextOrderNumber": 1043,
+  "orders": [
+    {
+      "id": "#MU-1041",
+      "createdAt": "2026-11-25T14:33:33.459Z",
+      "clientName": "Sardorbek Alimov",
+      "clientPhone": "+998 90 412 88 15",
+      "clientAddress": "Toshkent sh., Yunusobod 11-mavze, 24-uy",
+      "notes": "O'ng tomondagi gaz quvuriga moslab kesish kerak.",
+      "category": "Oshxona mebeli",
+      "style": "Modern",
+      "materialTier": "standart",
+      "dimensions": {
+        "widthCm": 320,
+        "heightCm": 260,
+        "depthCm": 60
+      },
+      "beforeImage": "/src/assets/images/preset_kitchen_before_1795688941730.jpg",
+      "afterImage": "/src/assets/images/preset_kitchen_after_1795688941979.jpg",
+      "quote": {
+        "tags": [
+          {
+            "id": "upper",
+            "title": "Yuqori shkaf",
+            "dimensionsLabel": "320×91 sm",
+            "priceSom": 2860000,
+            "sheetAreaSqm": 8,
+            "edgeBandingM": 30,
+            "materialSpec": "Turkiya AGT MDF 18mm + LDSP karkas",
+            "xPercent": 48,
+            "yPercent": 25,
+            "parts": [
+              {
+                "name": "Yuqori shkaf yon devor",
+                "lengthMm": 910,
+                "widthMm": 350,
+                "qty": 6,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun + 2 qisqa"
+              },
+              {
+                "name": "Yuqori shkaf gorizontal / javon",
+                "lengthMm": 608,
+                "widthMm": 330,
+                "qty": 15,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun (2mm PVX)"
+              },
+              {
+                "name": "Yuqori eshik (Fasad)",
+                "lengthMm": 906,
+                "widthMm": 636,
+                "qty": 5,
+                "material": "Turkiya AGT MDF 18mm",
+                "edgeBandingSides": "4 tomonlama"
+              }
+            ]
+          },
+          {
+            "id": "lower",
+            "title": "Pastki qism + Stoleshnitsa",
+            "dimensionsLabel": "320×85 sm",
+            "priceSom": 6310000,
+            "sheetAreaSqm": 7.2,
+            "edgeBandingM": 36,
+            "materialSpec": "Turkiya AGT MDF 18mm + HPL 38mm",
+            "xPercent": 45,
+            "yPercent": 72,
+            "parts": [
+              {
+                "name": "Pastki tumba yon devor",
+                "lengthMm": 720,
+                "widthMm": 560,
+                "qty": 6,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun"
+              },
+              {
+                "name": "Pastki asos (Dno) va reyka",
+                "lengthMm": 608,
+                "widthMm": 560,
+                "qty": 10,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun"
+              },
+              {
+                "name": "Pastki fasad / tortma oldi",
+                "lengthMm": 716,
+                "widthMm": 636,
+                "qty": 5,
+                "material": "Turkiya AGT MDF 18mm",
+                "edgeBandingSides": "4 tomonlama"
+              },
+              {
+                "name": "Stoleshnitsa (Ish stoli)",
+                "lengthMm": 3200,
+                "widthMm": 600,
+                "qty": 1,
+                "material": "Namlikka chidamli HPL 38mm",
+                "edgeBandingSides": "Old qirrasi"
+              }
+            ]
+          },
+          {
+            "id": "hardware",
+            "title": "Furnitura (G'ildirak va ilgaklar)",
+            "dimensionsLabel": "10 ilgak · 3 tortma",
+            "priceSom": 1580000,
+            "sheetAreaSqm": 1.2,
+            "edgeBandingM": 8,
+            "materialSpec": "GTV / Samet dovodchik + Teleskopik",
+            "xPercent": 75,
+            "yPercent": 52,
+            "parts": [
+              {
+                "name": "Tortma qutisi yonlari",
+                "lengthMm": 500,
+                "widthMm": 160,
+                "qty": 6,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun"
+              }
+            ]
+          }
+        ],
+        "totalPrice": 10750000,
+        "totalSheetAreaSqm": 16.4,
+        "totalSheetsCount": 4,
+        "totalEdgeBandingM": 74,
+        "productionDaysLabel": "10–14 kun",
+        "hardwareChecklist": [
+          "10 dona eshik ilgagi (standart/yumshoq)",
+          "3 to'plam tortma yo'naltirgichi (450–500 mm)",
+          "2 juft yuqori fasad gazlifti / ko'targichi",
+          "1 dona alyuminiy idish quritgich (800 mm) va plintus",
+          "LED yoritish tasmasi (3.2 m) va blok pitaniya"
+        ],
+        "allCuttingParts": [
+          {
+            "name": "Yuqori shkaf yon devor",
+            "lengthMm": 910,
+            "widthMm": 350,
+            "qty": 6,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun + 2 qisqa"
+          },
+          {
+            "name": "Yuqori shkaf gorizontal / javon",
+            "lengthMm": 608,
+            "widthMm": 330,
+            "qty": 15,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun (2mm PVX)"
+          },
+          {
+            "name": "Yuqori eshik (Fasad)",
+            "lengthMm": 906,
+            "widthMm": 636,
+            "qty": 5,
+            "material": "Turkiya AGT MDF 18mm",
+            "edgeBandingSides": "4 tomonlama"
+          },
+          {
+            "name": "Pastki tumba yon devor",
+            "lengthMm": 720,
+            "widthMm": 560,
+            "qty": 6,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun"
+          },
+          {
+            "name": "Pastki asos (Dno) va reyka",
+            "lengthMm": 608,
+            "widthMm": 560,
+            "qty": 10,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun"
+          },
+          {
+            "name": "Pastki fasad / tortma oldi",
+            "lengthMm": 716,
+            "widthMm": 636,
+            "qty": 5,
+            "material": "Turkiya AGT MDF 18mm",
+            "edgeBandingSides": "4 tomonlama"
+          },
+          {
+            "name": "Stoleshnitsa (Ish stoli)",
+            "lengthMm": 3200,
+            "widthMm": 600,
+            "qty": 1,
+            "material": "Namlikka chidamli HPL 38mm",
+            "edgeBandingSides": "Old qirrasi"
+          },
+          {
+            "name": "Tortma qutisi yonlari",
+            "lengthMm": 500,
+            "widthMm": 160,
+            "qty": 6,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun"
+          }
+        ]
+      },
+      "status": "Kesishda"
+    },
+    {
+      "id": "#MU-1042",
+      "createdAt": "2026-11-26T07:33:33.460Z",
+      "clientName": "Madina Karimova",
+      "clientPhone": "+998 93 551 09 42",
+      "clientAddress": "Toshkent sh., Chilonzor 6-mavze, 18-uy",
+      "notes": "Ichki LED yoritish sensorli bo'lsin.",
+      "category": "Shkaf-kupe",
+      "style": "Minimalist",
+      "materialTier": "premium",
+      "dimensions": {
+        "widthCm": 280,
+        "heightCm": 265,
+        "depthCm": 65
+      },
+      "beforeImage": "/src/assets/images/preset_wardrobe_before_1795688942692.jpg",
+      "afterImage": "/src/assets/images/preset_wardrobe_after_1795688943923.jpg",
+      "quote": {
+        "tags": [
+          {
+            "id": "doors",
+            "title": "Kupe eshiklar va fasad",
+            "dimensionsLabel": "280×265 sm",
+            "priceSom": 6180000,
+            "sheetAreaSqm": 8.2,
+            "edgeBandingM": 21,
+            "materialSpec": "Bo'yalgan MDF 19mm + Qora alyuminiy profil",
+            "xPercent": 34,
+            "yPercent": 42,
+            "parts": [
+              {
+                "name": "Kupe eshik polotnosi",
+                "lengthMm": 2610,
+                "widthMm": 700,
+                "qty": 4,
+                "material": "Bo'yalgan MDF 19mm",
+                "edgeBandingSides": "Alyuminiy ramka"
+              }
+            ]
+          },
+          {
+            "id": "carcass",
+            "title": "Ichki karkas va javonlar",
+            "dimensionsLabel": "4 bo'lim · 65 sm",
+            "priceSom": 5330000,
+            "sheetAreaSqm": 20.1,
+            "edgeBandingM": 46,
+            "materialSpec": "LDSP 16mm (oq/yogoch tuzilish)",
+            "xPercent": 66,
+            "yPercent": 52,
+            "parts": [
+              {
+                "name": "Shkaf yon va ichki tosiq",
+                "lengthMm": 2650,
+                "widthMm": 570,
+                "qty": 5,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun (2mm PVX)"
+              },
+              {
+                "name": "Kiyim javonlari",
+                "lengthMm": 676,
+                "widthMm": 550,
+                "qty": 16,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun"
+              }
+            ]
+          },
+          {
+            "id": "hardware",
+            "title": "Relslar, g'ildiraklar va shtanga",
+            "dimensionsLabel": "4 yo'lakli tizim",
+            "priceSom": 3070000,
+            "sheetAreaSqm": 0.8,
+            "edgeBandingM": 6,
+            "materialSpec": "Hettich / Blum dovodchik kupe mexanizm",
+            "xPercent": 50,
+            "yPercent": 80,
+            "parts": [
+              {
+                "name": "Ichki tortma bloklari",
+                "lengthMm": 500,
+                "widthMm": 180,
+                "qty": 4,
+                "material": "LDSP 16mm",
+                "edgeBandingSides": "1 uzun"
+              }
+            ]
+          }
+        ],
+        "totalPrice": 14580000,
+        "totalSheetAreaSqm": 29.1,
+        "totalSheetsCount": 6,
+        "totalEdgeBandingM": 73,
+        "productionDaysLabel": "14–18 kun",
+        "hardwareChecklist": [
+          "Yuqori va pastki kupe alyuminiy rels (2.8 m)",
+          "4 to'plam kupe rolik va yumshoq yopqich",
+          "2 dona xrom kiyim shtangasi va ushlagichlar",
+          "4 to'plam ichki tortma mexanizmi"
+        ],
+        "allCuttingParts": [
+          {
+            "name": "Kupe eshik polotnosi",
+            "lengthMm": 2610,
+            "widthMm": 700,
+            "qty": 4,
+            "material": "Bo'yalgan MDF 19mm",
+            "edgeBandingSides": "Alyuminiy ramka"
+          },
+          {
+            "name": "Shkaf yon va ichki tosiq",
+            "lengthMm": 2650,
+            "widthMm": 570,
+            "qty": 5,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun (2mm PVX)"
+          },
+          {
+            "name": "Kiyim javonlari",
+            "lengthMm": 676,
+            "widthMm": 550,
+            "qty": 16,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun"
+          },
+          {
+            "name": "Ichki tortma bloklari",
+            "lengthMm": 500,
+            "widthMm": 180,
+            "qty": 4,
+            "material": "LDSP 16mm",
+            "edgeBandingSides": "1 uzun"
+          }
+        ]
+      },
+      "status": "Yangi"
+    }
+  ]
+}

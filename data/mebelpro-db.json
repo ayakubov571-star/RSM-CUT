@@ -1,0 +1,353 @@
+{
+  "pricing": {
+    "ldspPerSqm": 185000,
+    "mdfPerSqm": 310000,
+    "acrylicPerSqm": 440000,
+    "veneerPerSqm": 540000,
+    "countertopPerM": 850000,
+    "edgeBandingPerM": 8500,
+    "hardwareBoyard": 950000,
+    "hardwareBlum": 2450000,
+    "extraShelfPrice": 150000,
+    "extraDrawerPrice": 220000,
+    "extraGlassDoorPrice": 350000,
+    "extraLedPrice": 180000,
+    "laborPercent": 32
+  },
+  "catalog": [
+    {
+      "id": "cat-kitchen-modern",
+      "title": "Toshkent Modern Oshxona",
+      "category": "Oshxona",
+      "description": "Shiftgacha yuqori shkaflar, ochiq yog'och nisha va kvars tosh stoleshnitsali zamonaviy oshxona.",
+      "image": "/src/assets/images/catalog_kitchen_modern_1795689530411.jpg",
+      "basePrice": 8900000,
+      "defaultDimensions": {
+        "widthCm": 300,
+        "heightCm": 250,
+        "depthCm": 60
+      },
+      "carcassMaterial": "Rossiya LDSP",
+      "facadeMaterial": "Turkiya MDF",
+      "hardwareBrand": "Boyard",
+      "isDefault": true
+    },
+    {
+      "id": "cat-wardrobe-kupe",
+      "title": "Minimalist Shkaf-Kupe Pro",
+      "category": "Shkaf",
+      "description": "Qora alyuminiy profilli, qoraytirilgan shisha va mat MDF eshikli to'liq bo'yli kupe shkafi.",
+      "image": "/src/assets/images/catalog_wardrobe_kupe_1795689531221.jpg",
+      "basePrice": 6450000,
+      "defaultDimensions": {
+        "widthCm": 240,
+        "heightCm": 255,
+        "depthCm": 65
+      },
+      "carcassMaterial": "Rossiya LDSP",
+      "facadeMaterial": "Turkiya MDF",
+      "hardwareBrand": "Boyard",
+      "isDefault": true
+    },
+    {
+      "id": "cat-tvzone-hitech",
+      "title": "Hi-Tech Reykali TV-Zona",
+      "category": "TV-zona",
+      "description": "Osma konsol tortmalari, vertikal yong'oq reykali fon va LED yoritgichli shisha vitrina.",
+      "image": "/src/assets/images/catalog_tvzone_hitech_1795689531427.jpg",
+      "basePrice": 5200000,
+      "defaultDimensions": {
+        "widthCm": 320,
+        "heightCm": 230,
+        "depthCm": 42
+      },
+      "carcassMaterial": "Rossiya LDSP",
+      "facadeMaterial": "Shpon",
+      "hardwareBrand": "Blum",
+      "isDefault": true
+    },
+    {
+      "id": "cat-bedroom-cashmere",
+      "title": "Kashmir Yotoqxona Garderobi",
+      "category": "Yotoqxona",
+      "description": "Mat kashmir MDF fasadli garderob shkafi va birlashtirilgan ikki tortmali konsol tumba.",
+      "image": "/src/assets/images/catalog_bedroom_set_1795689533022.jpg",
+      "basePrice": 7100000,
+      "defaultDimensions": {
+        "widthCm": 280,
+        "heightCm": 250,
+        "depthCm": 60
+      },
+      "carcassMaterial": "Turkiya MDF",
+      "facadeMaterial": "AGT Akril",
+      "hardwareBrand": "Blum",
+      "isDefault": true
+    }
+  ],
+  "nextOrderNumber": 2026,
+  "orders": [
+    {
+      "id": "#MP-2024",
+      "createdAt": "2026-11-25T10:43:36.946Z",
+      "clientName": "Sardorbek Alimov",
+      "clientPhone": "+998 90 412 88 15",
+      "clientAddress": "Toshkent sh., Yunusobod 11-mavze, 24-uy",
+      "notes": "O'ng tomondagi gaz quvuri uchun 8 sm joy qoldirish kerak.",
+      "catalogItemId": "cat-kitchen-modern",
+      "catalogItemTitle": "Toshkent Modern Oshxona",
+      "category": "Oshxona",
+      "dimensions": {
+        "widthCm": 300,
+        "heightCm": 250,
+        "depthCm": 60
+      },
+      "carcassMaterial": "Rossiya LDSP",
+      "facadeMaterial": "Turkiya MDF",
+      "hardwareBrand": "Boyard",
+      "extras": {
+        "extraShelves": 2,
+        "drawers": 1,
+        "glassDoors": 0,
+        "ledLighting": true
+      },
+      "roomImage": "/src/assets/images/preset_kitchen_before_1795688941730.jpg",
+      "furnitureImage": "/src/assets/images/catalog_kitchen_modern_1795689530411.jpg",
+      "aiRenderImage": "/src/assets/images/preset_kitchen_after_1795688941979.jpg",
+      "placedBox": {
+        "xPercent": 54,
+        "yPercent": 52,
+        "widthPercent": 62,
+        "heightPercent": 56
+      },
+      "totalPrice": 11050000,
+      "productionDaysLabel": "8–12 kun",
+      "cuttingParts": [
+        {
+          "id": "k-upper-side",
+          "name": "Yuqori shkaf yon devor",
+          "lengthMm": 875,
+          "widthMm": 340,
+          "qty": 6,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun + 2 qisqa",
+          "role": "carcass"
+        },
+        {
+          "id": "k-upper-horiz",
+          "name": "Yuqori shkaf gorizontal",
+          "lengthMm": 568,
+          "widthMm": 322,
+          "qty": 12,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "carcass"
+        },
+        {
+          "id": "k-upper-door",
+          "name": "Yuqori fasad eshik",
+          "lengthMm": 871,
+          "widthMm": 596,
+          "qty": 5,
+          "material": "Turkiya MDF",
+          "edgeBandingSides": "4 tomonlama",
+          "role": "facade"
+        },
+        {
+          "id": "k-lower-side",
+          "name": "Pastki tumba yon devor",
+          "lengthMm": 740,
+          "widthMm": 560,
+          "qty": 6,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "carcass"
+        },
+        {
+          "id": "k-lower-base",
+          "name": "Pastki asos (Dno) va reyka",
+          "lengthMm": 568,
+          "widthMm": 560,
+          "qty": 10,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "carcass"
+        },
+        {
+          "id": "k-lower-door",
+          "name": "Pastki fasad eshik",
+          "lengthMm": 734,
+          "widthMm": 596,
+          "qty": 5,
+          "material": "Turkiya MDF",
+          "edgeBandingSides": "4 tomonlama",
+          "role": "facade"
+        },
+        {
+          "id": "extra-shelf",
+          "name": "Qo'shimcha polka",
+          "lengthMm": 568,
+          "widthMm": 520,
+          "qty": 2,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "shelf"
+        },
+        {
+          "id": "extra-drawer-box",
+          "name": "Qo'shimcha tortma qutisi",
+          "lengthMm": 500,
+          "widthMm": 160,
+          "qty": 2,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "drawer"
+        },
+        {
+          "id": "extra-drawer-front",
+          "name": "Qo'shimcha tortma old fasadi",
+          "lengthMm": 594,
+          "widthMm": 190,
+          "qty": 1,
+          "material": "Turkiya MDF",
+          "edgeBandingSides": "4 tomonlama",
+          "role": "facade"
+        }
+      ],
+      "hardwareChecklist": [
+        "10 dona ilgak (Boyard yumshoq yopqich)",
+        "5 to'plam tortma yo'naltirgichi (Boyard)",
+        "Stoleshnitsa (3.0 m) va suv o'tkazmas plintus",
+        "LED profil yoritish (3.0 m) va sensorli blok"
+      ],
+      "sheetSize": "2800x2070",
+      "status": "Kesish / Raskroy"
+    },
+    {
+      "id": "#MP-2025",
+      "createdAt": "2026-11-26T06:43:36.947Z",
+      "clientName": "Madina Karimova",
+      "clientPhone": "+998 93 551 09 42",
+      "clientAddress": "Toshkent sh., Chilonzor 6-mavze, 18-uy",
+      "notes": "Ichki LED chiroqlar eshik ochilganda yonsin.",
+      "catalogItemId": "cat-wardrobe-kupe",
+      "catalogItemTitle": "Minimalist Shkaf-Kupe Pro",
+      "category": "Shkaf",
+      "dimensions": {
+        "widthCm": 240,
+        "heightCm": 255,
+        "depthCm": 65
+      },
+      "carcassMaterial": "Rossiya LDSP",
+      "facadeMaterial": "Turkiya MDF",
+      "hardwareBrand": "Blum",
+      "extras": {
+        "extraShelves": 2,
+        "drawers": 2,
+        "glassDoors": 2,
+        "ledLighting": true
+      },
+      "roomImage": "/src/assets/images/preset_wardrobe_before_1795688942692.jpg",
+      "furnitureImage": "/src/assets/images/catalog_wardrobe_kupe_1795689531221.jpg",
+      "aiRenderImage": "/src/assets/images/preset_wardrobe_after_1795688943923.jpg",
+      "placedBox": {
+        "xPercent": 50,
+        "yPercent": 48,
+        "widthPercent": 52,
+        "heightPercent": 66
+      },
+      "totalPrice": 12770000,
+      "productionDaysLabel": "12–16 kun",
+      "cuttingParts": [
+        {
+          "id": "w-side",
+          "name": "Shkaf yon va ichki tosiq",
+          "lengthMm": 2550,
+          "widthMm": 650,
+          "qty": 4,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun (2mm)",
+          "role": "carcass"
+        },
+        {
+          "id": "w-topbot",
+          "name": "Shkaf ustki va pastki qopqoq",
+          "lengthMm": 2368,
+          "widthMm": 650,
+          "qty": 2,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "carcass"
+        },
+        {
+          "id": "w-shelf",
+          "name": "Kiyim javon (Polka)",
+          "lengthMm": 776,
+          "widthMm": 570,
+          "qty": 9,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "shelf"
+        },
+        {
+          "id": "w-door",
+          "name": "Kupe / Fasad eshik",
+          "lengthMm": 2520,
+          "widthMm": 796,
+          "qty": 3,
+          "material": "Turkiya MDF",
+          "edgeBandingSides": "4 tomonlama",
+          "role": "facade"
+        },
+        {
+          "id": "extra-shelf",
+          "name": "Qo'shimcha polka",
+          "lengthMm": 568,
+          "widthMm": 570,
+          "qty": 2,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "shelf"
+        },
+        {
+          "id": "extra-drawer-box",
+          "name": "Qo'shimcha tortma qutisi",
+          "lengthMm": 550,
+          "widthMm": 160,
+          "qty": 4,
+          "material": "Rossiya LDSP",
+          "edgeBandingSides": "1 uzun",
+          "role": "drawer"
+        },
+        {
+          "id": "extra-drawer-front",
+          "name": "Qo'shimcha tortma old fasadi",
+          "lengthMm": 594,
+          "widthMm": 190,
+          "qty": 2,
+          "material": "Turkiya MDF",
+          "edgeBandingSides": "4 tomonlama",
+          "role": "facade"
+        },
+        {
+          "id": "extra-glass-frame",
+          "name": "Shisha eshik ramkasi (Alyuminiy/MDF)",
+          "lengthMm": 1530,
+          "widthMm": 596,
+          "qty": 2,
+          "material": "Shisha + Alyuminiy profil",
+          "edgeBandingSides": "4 tomonlama",
+          "role": "facade"
+        }
+      ],
+      "hardwareChecklist": [
+        "8 dona ilgak (Blum yumshoq yopqich)",
+        "5 to'plam tortma yo'naltirgichi (Blum)",
+        "Kupe rels va g'ildirak tizimi (2.4 m)",
+        "2 dona toblangan qora/shaffof shisha eshik",
+        "LED profil yoritish (2.4 m) va sensorli blok"
+      ],
+      "sheetSize": "2750x1830",
+      "status": "Yangi"
+    }
+  ]
+}
